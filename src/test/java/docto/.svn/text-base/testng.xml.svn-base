@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demoxmlfilecreation" verbose="1" >
+  <test name="docto_by_akshay" >
+    <classes>
+        <class name="docto.Add_Token"/>
+        <class name="docto.Patients"/>        
+     	<class name="docto.Attendants_add"/>
+        <class name="docto.Attendants_aedit"/>
+        <class name="docto.Attendants_del"/>
+        <class name="docto.Diagnosis_add"/>
+		<class name="docto.OPD_edit"/>
+        <class name="docto.OPD_list"/>
+        <class name="docto.opd"/>
+        <class name="docto.Patients_prescription"/>
+        <class name="docto.Patients_reports"/>
+        <class name="docto.Patients_update"/>
+        <class name="docto.Patients_delete_records"/>                                        
+    </classes>
+  </test> 
+</suite>
